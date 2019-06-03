@@ -23,3 +23,9 @@ Rakenduse puhul peavad olema täidetud vähemalt järgmised nõuded:
   * saab kasutada "add to Home screen" funktsionaalsust.
 
 Rakenduses võib kasutada teiste autorite koodi, kuid enda panus peab olema natuke enamat kui võrguta olekus töötamine. 
+______________________________________________________________________________________________________________________
+
+Rakendus: PIANO
+Autor: Johanna Maarja Eller
+
+Funktsionaalsused: Rakenduses saab virtuaalse klaveri klahvidele klikates mängida vastavat nooti. Taustavärvi saab defaultilt vahetada coral'iks ja aquamarine'iks. 
