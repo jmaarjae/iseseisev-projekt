@@ -19,96 +19,113 @@
 
     <button onclick="changeBgColor1('#f08080')">Coral</button>
     <button onclick="changeBgColor2('#7fffd4')">Aquamarine</button>
+    <button id="play" onclick="playTwinkle()" style="position: relative;">Play Twinkle Twinkle Little Star</button>
 
+    <button onclick="loadImage()" style="position: absolute; right: 0;">Twinkle Twinkle Little Star music sheet</button>
+    <p>
+    <button onclick="closeImage()" style="position: absolute; right: 0;">Close music sheet</button>
+    </p>
+   
+    
+    
+    
+   
     <div class="app">
+        <div id="image" class="notes">
+            <img src="Twinkle.jpg">
+        </div>
         <header>
             <h1>Piano</h1>
         </header>
         <div class="visual">
         <div class="wpads">
             <div class="wpad1">
-                <audio class="wsound" src="./sounds/note1s.mp3"></audio>
+                <audio id="audio1" class="wsound" src="./sounds/note1s.mp3" ></audio>
             </div>
-            <div class="wpad2">
-                <audio class="wsound" src="./sounds/note3s.mp3"></audio>
+            <div class="wpad2" >
+                <audio id="audio2" class="wsound" src="./sounds/note3s.mp3"></audio>
             </div>
             <div class="wpad3">
-                <audio class="wsound" src="./sounds/note5s.mp3"></audio>
+                <audio id="audio3" class="wsound" src="./sounds/note5s.mp3"></audio>
             </div>
             <div class="wpad4">
-                <audio class="wsound" src="./sounds/note6s.mp3"></audio>
+                <audio id="audio4" class="wsound" src="./sounds/note6s.mp3"></audio>
             </div>
             <div class="wpad5">
-                <audio class="wsound" src="./sounds/note8s.mp3"></audio>
+                <audio id="audio5" class="wsound" src="./sounds/note8s.mp3"></audio>
             </div>
             <div class="wpad6">
-                <audio class="wsound" src="./sounds/note10s.mp3"></audio>
+                <audio id="audio6" class="wsound" src="./sounds/note10s.mp3"></audio>
             </div>
             <div class="wpad7">
-                <audio class="wsound" src="./sounds/note12s.mp3"></audio>
+                <audio id="audio7" class="wsound" src="./sounds/note12s.mp3"></audio>
             </div>
             <div class="wpad8">
-                <audio class="wsound" src="./sounds/note1o.mp3"></audio>
+                <audio id="audio8" class="wsound" src="./sounds/note1o.mp3"></audio>
             </div>
             <div class="wpad9">
-                <audio class="wsound" src="./sounds/note3o.mp3"></audio>
+                <audio id="audio9" class="wsound" src="./sounds/note3o.mp3"></audio>
             </div>
             <div class="wpad10">
-                <audio class="wsound" src="./sounds/note5o.mp3"></audio>
+                <audio id="audio10" class="wsound" src="./sounds/note5o.mp3"></audio>
             </div>
             <div class="wpad11">
-                <audio class="wsound" src="./sounds/note6o.mp3"></audio>
+                <audio id="audio11" class="wsound" src="./sounds/note6o.mp3"></audio>
             </div>
             <div class="wpad12">
-                <audio class="wsound" src="./sounds/note8o.mp3"></audio>
+                <audio id="audio12" class="wsound" src="./sounds/note8o.mp3"></audio>
             </div>
             <div class="wpad13">
-                <audio class="wsound" src="./sounds/note10o.mp3"></audio>
+                <audio id="audio13" class="wsound" src="./sounds/note10o.mp3"></audio>
             </div>
             <div class="wpad14">
-                <audio class="wsound" src="./sounds/note12o.mp3"></audio>
+                <audio id="audio14" class="wsound" src="./sounds/note12o.mp3"></audio>
             </div>
             
         </div>
         <div class="bpads">
              <div class="bpad1">
-                <audio class="bsound" src="./sounds/note2s.mp3"></audio>
+                <audio id="baudio1" class="bsound" src="./sounds/note2s.mp3"></audio>
             </div>
             <div class="bpad2">
-                <audio class="bsound" src="./sounds/note4s.mp3"></audio>
+                <audio id="baudio2" class="bsound" src="./sounds/note4s.mp3"></audio>
             </div>
             <div class="bpad3">
                 <audio class="bsound" src="./sounds/note4s.mp3"></audio>
             </div>
             <div class="bpad4">
-                <audio class="bsound" src="./sounds/note7s.mp3"></audio>
+                <audio id="baudio3" class="bsound" src="./sounds/note7s.mp3"></audio>
             </div>
             <div class="bpad5">
-                <audio class="bsound" src="./sounds/note9s.mp3"></audio>
+                <audio id="baudio4" class="bsound" src="./sounds/note9s.mp3"></audio>
             </div>
             <div class="bpad6">
-                <audio class="bsound" src="./sounds/note11s.mp3"></audio>
+                <audio id="baudio5" class="bsound" src="./sounds/note11s.mp3"></audio>
             </div>
             <div class="bpad7">
                 <audio class="bsound" src="./sounds/note11s.mp3"></audio>
             </div>
             <div class="bpad8">
-                <audio class="bsound" src="./sounds/note2o.mp3"></audio>
+                <audio id="baudio6" class="bsound" src="./sounds/note2o.mp3"></audio>
             </div>
             <div class="bpad9">
-                <audio class="bsound" src="./sounds/note4o.mp3"></audio>
+                <audio id="baudio7" class="bsound" src="./sounds/note4o.mp3"></audio>
             </div>
             <div class="bpad10">
                 <audio class="bsound" src="./sounds/note4o.mp3"></audio>
             </div> 
             <div class="bpad11">
-                <audio class="bsound" src="./sounds/note7o.mp3"></audio>
+                <audio id="baudio8" class="bsound" src="./sounds/note7o.mp3"></audio>
             </div>
             <div class="bpad12">
-                <audio class="bsound" src="./sounds/note9o.mp3"></audio>
+                <audio id="baudio9" class="bsound" src="./sounds/note9o.mp3"></audio>
             </div>
             <div class="bpad13">
-                <audio class="bsound" src="./sounds/note11o.mp3"></audio>
+                <audio id="baudio10" class="bsound" src="./sounds/note11o.mp3"></audio>
+            </div>
+            <!--Vaikuse klipp loo ettemängimise jaoks-->
+            <div class="bpad14">
+                <audio id="baudio11" class="bsound" src="./sounds/Silence01s.mp3"></audio>
             </div>
         </div>
 
@@ -116,5 +133,6 @@
         </div>
     </div>
     <script src="./Eller.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 </body>
 </html>

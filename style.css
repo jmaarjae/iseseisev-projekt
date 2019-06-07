@@ -23,7 +23,7 @@ body {
 }
 
 header h1 {
-    margin: 40px 0px 40px 0px;
+    margin: 10px 0px 25px 0px;
     text-align: center;
     font-size: 40px;
 
@@ -43,7 +43,7 @@ header h1 {
     border: 1px solid black;
 }
 
-.wpads > div:active {
+.wpads > div:active, .wpads > div.active{
     background: rgb(200, 245, 245);
 }
 
@@ -67,6 +67,12 @@ header h1 {
     visibility:hidden;
 }
 
-.bpads > div:active {
-    background: rgb(0, 58, 58);
+.bpads > div:active, .bpads > div.active { 
+    background: #0e7477;
 }
+
+.notes {
+    max-height:0px;
+    transition:max-height 1.5s;
+    overflow:hidden;
+  }
