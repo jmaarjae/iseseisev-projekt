@@ -28,4 +28,4 @@ ________________________________________________________________________________
 Rakendus: PIANO
 Autor: Johanna Maarja Eller
 
-Funktsionaalsused: Rakenduses saab virtuaalse klaveri klahvidele klikates ja klaviatuuril klahve vajutades mängida vastavat nooti. Taustavärvi saab defaultilt vahetada coral'iks ja aquamarine'iks. Võimalus lasta ettemängida klahvistikul laulu Twinkle Twinkle Little Star ning laadida nootistikust pilt.
+Funktsionaalsused: Rakenduses saab virtuaalse klaveri klahvidele klikates ja klaviatuuril klahve vajutades mängida vastavat nooti. Taustavärvi saab defaultilt vahetada coral'iks ja aquamarine'iks. Võimalus lasta ettemängida klahvistikul laulu Twinkle Twinkle Little Star ning laadida noodistikust pilt.
